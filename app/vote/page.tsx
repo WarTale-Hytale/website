@@ -1,3 +1,5 @@
+'use client'
+
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import VoteCard from '@/components/VoteCard'
