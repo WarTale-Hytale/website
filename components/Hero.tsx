@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Copy, Check, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const DISCORD_URL = 'https://discord.gg/wartale'
 const SERVER_IP = 'play.wartale.fr'
@@ -57,6 +58,29 @@ export default function Hero() {
         animate="visible"
         className="relative z-10 text-center max-w-4xl mx-auto"
       >
+        {/* Banner */}
+        <motion.div
+          variants={itemVariants}
+          className="flex justify-center mb-8"
+        >
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.8, type: 'spring', stiffness: 200 }}
+            whileHover={{ scale: 1.05 }}
+            className="relative w-full max-w-2xl h-auto"
+          >
+            <Image
+              src="/assets/banner_sans_fond.png"
+              alt="WarTale Banner"
+              width={800}
+              height={200}
+              className="object-contain drop-shadow-2xl w-full h-auto"
+              priority
+            />
+          </motion.div>
+        </motion.div>
+
         {/* Badge */}
         <motion.div
           variants={itemVariants}
