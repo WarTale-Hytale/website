@@ -145,7 +145,7 @@ export default function WikiPage() {
     <main>
       <Navbar />
       <div className="min-h-screen pt-20 pb-20">
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -367,6 +367,7 @@ export default function WikiPage() {
             </p>
           </motion.div>
         )}
+        </div>
       </div>
       <Footer />
     </main>
