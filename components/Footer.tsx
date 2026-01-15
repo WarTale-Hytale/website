@@ -53,6 +53,11 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/wiki" className="text-[#b8c5d1] hover:text-white transition-colors text-sm">
+                    Wiki
+                  </Link>
+                </li>
+                <li>
                   <Link href="/vote" className="text-[#b8c5d1] hover:text-white transition-colors text-sm">
                     Vote
                   </Link>

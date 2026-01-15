@@ -24,6 +24,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Accueil' },
+    { href: '/wiki', label: 'Wiki' },
     { href: '/vote', label: 'Vote' },
   ]
 
