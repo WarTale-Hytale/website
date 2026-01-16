@@ -12,21 +12,21 @@ const voteSites = [
     description:
       'Votez pour WarTale sur Hytale.Game et aidez-nous à être mieux référencés dans la liste des serveurs Hytale.',
     timer: 'Toutes les 6 heures',
-    url: 'https://hytale.game/vote/wartale',
+    url: 'https://hytale.game/serveurs/?sid=wartale',
   },
   {
     siteName: 'Hytale-Servs',
     description:
       'Votez pour WarTale sur Hytale-Servs et soutenez notre serveur dans le classement des serveurs Hytale français.',
     timer: 'Toutes les 8 heures',
-    url: 'https://hytale-servs.com/vote/wartale',
+    url: 'https://hytale-servs.com/servers/wartale',
   },
   {
     siteName: 'Serveur-Privé.net',
     description:
       'Votez pour WarTale sur Serveur-Privé.net et soutenez notre serveur dans le classement des serveurs Hytale français.',
     timer: 'Toutes les 1h30',
-    url: 'https://serveur-prive.net/vote/wartale',
+    url: 'https://serveur-prive.net/hytale/wartale/vote',
   },
 ]
 
