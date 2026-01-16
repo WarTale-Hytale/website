@@ -32,7 +32,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#b8c5d1] text-sm">
-              Serveur Hytale PvP Faction & KitPvP
+              Serveur Hytale PvP Faction & Practice
             </p>
           </motion.div>
 
@@ -73,12 +73,9 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <button
-                    onClick={() => alert('Boutique bientôt disponible !')}
-                    className="text-[#b8c5d1] hover:text-white transition-colors text-sm"
-                  >
+                  <Link href="/boutique" className="text-[#b8c5d1] hover:text-white transition-colors text-sm">
                     Boutique
-                  </button>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -89,7 +86,7 @@ export default function Footer() {
                   <code className="text-[#4a90e2] text-sm">play.wartale.fr</code>
                 </li>
                 <li className="text-[#b8c5d1] text-sm">PvP Faction (Ouvert)</li>
-                <li className="text-[#b8c5d1] text-sm">KitPvP (Prochainement)</li>
+                <li className="text-[#b8c5d1] text-sm">Practice (Prochainement)</li>
               </ul>
             </div>
           </motion.div>

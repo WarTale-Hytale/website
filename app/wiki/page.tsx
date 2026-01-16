@@ -19,22 +19,6 @@ import Footer from '@/components/Footer'
 
 const wikiSections = [
   {
-    id: 'optimisation',
-    title: 'Serveur Optimisé',
-    icon: Zap,
-    color: 'from-yellow-500 to-orange-500',
-    content: {
-      description: 'WarTale est conçu pour offrir une expérience de jeu fluide et performante.',
-      features: [
-        'Performance optimale grâce à une configuration serveur de pointe',
-        'Réduction des lag et des latences pour une expérience de jeu fluide',
-        'Gestion efficace des ressources pour supporter de nombreux joueurs simultanés',
-        'Mises à jour régulières pour maintenir les performances optimales',
-        'Infrastructure robuste garantissant une stabilité maximale'
-      ]
-    }
-  },
-  {
     id: 'factions',
     title: 'Système de Faction & Claim',
     icon: Shield,

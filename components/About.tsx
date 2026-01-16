@@ -65,7 +65,7 @@ export default function About() {
               </p>
               <p>
                 Notre serveur offre une expérience de jeu équilibrée avec un système de factions robuste pour le mode
-                survie, et bientôt des arènes KitPvP pour les amateurs de combat pur. Rejoignez une communauté active
+                survie, et bientôt des arènes Practice pour les amateurs de combat pur. Rejoignez une communauté active
                 et vivez des aventures épiques !
               </p>
             </div>

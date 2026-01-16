@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'WarTale - Serveur Hytale PvP Faction & KitPvP',
-  description: 'WarTale - Serveur Hytale français avec mode PvP Faction et KitPvP. Rejoignez l\'aventure sur play.wartale.fr',
+  title: 'WarTale - Serveur Hytale PvP Faction & Practice',
+  description: 'WarTale - Serveur Hytale français avec mode PvP Faction et Practice. Rejoignez l\'aventure sur play.wartale.fr',
   icons: {
     icon: '/assets/logo_sans_fond.png',
     shortcut: '/assets/logo_sans_fond.png',

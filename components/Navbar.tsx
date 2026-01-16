@@ -81,16 +81,16 @@ export default function Navbar() {
               href={DISCORD_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-gradient-to-r from-[#667eea] to-[#764ba2] rounded-lg font-medium hover:scale-105 transition-transform duration-300"
+              className="px-4 py-2 text-[#b8c5d1] hover:text-white transition-colors duration-300"
             >
               Discord
             </a>
-            <button
-              onClick={() => alert('Boutique bientôt disponible !')}
-              className="px-4 py-2 text-[#b8c5d1] hover:text-white transition-colors duration-300"
+            <Link
+              href="/boutique"
+              className="px-4 py-2 bg-gradient-to-r from-[#667eea] to-[#764ba2] rounded-lg font-medium hover:scale-105 transition-transform duration-300"
             >
               Boutique
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -134,19 +134,17 @@ export default function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
-                className="block px-4 py-2 bg-gradient-to-r from-[#667eea] to-[#764ba2] rounded-lg font-medium text-center"
+                className="block px-4 py-2 text-[#b8c5d1] hover:text-white transition-colors"
               >
                 Discord
               </a>
-              <button
-                onClick={() => {
-                  setIsOpen(false)
-                  alert('Boutique bientôt disponible !')
-                }}
-                className="block w-full text-left px-4 py-2 text-[#b8c5d1] hover:text-white transition-colors"
+              <Link
+                href="/boutique"
+                onClick={() => setIsOpen(false)}
+                className="block px-4 py-2 bg-gradient-to-r from-[#667eea] to-[#764ba2] rounded-lg font-medium text-center"
               >
                 Boutique
-              </button>
+              </Link>
             </div>
           </motion.div>
         )}

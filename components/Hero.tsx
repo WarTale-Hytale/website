@@ -92,15 +92,10 @@ export default function Hero() {
         {/* Title */}
         <motion.h1 variants={itemVariants} className="mb-6">
           <motion.span
-            className="block text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-[#667eea] via-[#764ba2] to-[#667eea] bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient"
-          >
-            WarTale
-          </motion.span>
-          <motion.span
             variants={itemVariants}
             className="block text-xl md:text-2xl text-[#b8c5d1] font-normal"
           >
-            Serveur Hytale PvP Faction & KitPvP
+            Serveur Hytale PvP Faction & Practice
           </motion.span>
         </motion.h1>
 
@@ -111,7 +106,7 @@ export default function Hero() {
         >
           Plongez dans l'action avec notre serveur Hytale français ! Affrontez vos ennemis en mode{' '}
           <strong className="text-white">PvP Faction</strong> ou testez vos compétences dans nos arènes{' '}
-          <strong className="text-white">KitPvP</strong>. L'aventure vous attend !
+          <strong className="text-white">Practice</strong>. L'aventure vous attend !
         </motion.p>
 
         {/* IP Section */}

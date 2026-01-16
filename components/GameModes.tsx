@@ -19,10 +19,10 @@ const modes = [
     status: 'PROCHAINEMENT',
     statusColor: 'bg-[#7b68ee]',
     icon: Target,
-    title: 'KitPvP',
+    title: 'Practice',
     subtitle: 'Arènes de Combat - Bientôt Disponible',
     description:
-      'Testez vos compétences en combat dans nos arènes KitPvP ! Choisissez votre kit, affrontez d\'autres joueurs et montez dans le classement. Mode sans perte de stuff, parfait pour s\'entraîner et s\'amuser.',
+      'Testez vos compétences en combat dans nos arènes Practice ! Choisissez votre kit, affrontez d\'autres joueurs et montez dans le classement. Mode sans perte de stuff, parfait pour s\'entraîner et s\'amuser.',
     features: ['Arènes', 'Kits', 'Classement', 'Sans perte'],
     gradient: 'from-[#7b68ee] to-[#9d7fff]',
   },
